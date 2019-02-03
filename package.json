@@ -20,14 +20,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NathanKloer/SciFly.git"
+    "url": "git+https://github.com/philgrider/Scifly-Test.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NathanKloer/SciFly/issues"
+    "url": "https://github.com/philgrider/Scifly-Test/issues"
   },
-  "homepage": "https://github.com/NathanKloer/SciFly#readme",
+  "homepage": "https://github.com/philgrider/Scifly-Test#readme",
   "devDependencies": {
     "axios": "^0.18.0",
     "bcrypt": "^3.0.3",
