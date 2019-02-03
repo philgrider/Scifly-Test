@@ -4,7 +4,7 @@
   "description": "A platform that connects Givers and Receivers.",
   "main": "server.js",
   "scripts": {
-    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start": "cross-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node server.js",
     "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
     "start:server": "node ./server.js",
@@ -48,6 +48,7 @@
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "cross-env": "^5.2.0",
     "express": "^4.16.4",
     "mongoose": "^5.4.6",
     "node": "^11.7.0"
