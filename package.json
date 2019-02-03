@@ -1,5 +1,5 @@
 {
-  "name": "scifly",
+  "name": "scifly-test",
   "version": "1.0.0",
   "description": "A platform that connects Givers and Receivers.",
   "main": "server.js",
